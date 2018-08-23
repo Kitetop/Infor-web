@@ -39,6 +39,10 @@ export default new Router({
         {
             path: '/admin/change',
             component: change,
+        },
+        {
+            path: '*',
+            redirect: '/news',
         }
     ],
 });
